@@ -68,12 +68,12 @@ span {
 
 #purchase {
   width: 22.125rem;
+  height: 3.125rem;
   background-color: hsl(245, 75%, 52%);
   color: hsl(0, 0%, 100%);
   border: none;
   font-weight: 700;
-  margin-top: 2.22%;
-  padding: 3% 0;
+  margin-top: 2rem;
   border-radius: 0.9rem;
   box-shadow: 0 .625rem .5rem hsl(224, 23%, 80%);
 }
