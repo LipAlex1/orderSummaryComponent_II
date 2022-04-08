@@ -56,9 +56,50 @@ ul {
 
 span {
   display: block;
+  padding-bottom: 1rem;
 }
 
 .subheading {
   font-weight: 700;
   color: #1F2E55;
+}
+
+/* === Button Styles === */
+
+#purchase {
+  width: 22.125rem;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  font-weight: 700;
+  margin-top: 2.22%;
+  padding: 3% 0;
+  border-radius: 0.9rem;
+  box-shadow: 0 .625rem .5rem hsl(224, 23%, 80%);
+}
+
+#purchase:active {
+  background-color: hsl(252, 53%, 60%);
+}
+
+#purchase:hover {
+  cursor: pointer;
+}
+
+#cancel_order {
+  max-width: 22.125rem;
+  margin: 2.88rem 0;
+  border: none;
+  font-weight: 700;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+#cancel_order:active {
+  color: hsl(0, 100%, 0%);
+}
+
+#cancel_order:hover {
+  cursor: pointer;
 }
